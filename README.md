@@ -9,6 +9,7 @@ https://celestia.org/privacy/ <br>
 
 </div>
 
+# Usage:
 This project allows you to perform Payforblob transactions on the Celestia network with just one click. Several files written in the Python programming language are required for the project to work. These files provide a web interface that contains the necessary information for Payforblob transactions and send requests to the Celestia network.
 
 A Payforblob transaction is used to pay for a blob data. In this transaction, a specified amount of Tia (celestia test token) is paid and the payment is stored as a blob under a specified Namespace ID. This allows the blob data to be stored on the network and accessed at any time.
@@ -17,6 +18,7 @@ The project is built using Flask, a popular tool for developing web applications
 
 This project allows you to manage Payforblob transactions with a simple and user-friendly interface. Once you have entered the required information correctly, you can easily perform Payforblob transactions.
 
+# How it Works?
 ### 1- To get started, you need to access the website. Once you are on the website, it will ask you to enter a random number. After entering the number, click the submit button and wait for the output.
 
 ![image](https://user-images.githubusercontent.com/76253089/232177942-d182fa45-3370-4ca6-b52d-45ff6fd42523.png)
@@ -28,3 +30,5 @@ This project allows you to manage Payforblob transactions with a simple and user
 ### 3- Explorer: https://testnet.mintscan.io/celestia-incentivized-testnet
 
 ![image](https://user-images.githubusercontent.com/76253089/232178028-e878e773-daa2-451c-9eef-882de71e2e5c.png)
+
+
