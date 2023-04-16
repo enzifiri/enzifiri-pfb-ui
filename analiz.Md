@@ -69,7 +69,8 @@ sh /tmp/netdata-kickstart.sh --nightly-channel
 ```
 wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --nightly-channel --claim-token YOURTOKEN --claim-url https://app.netdata.cloud
 ```
-3- Connect Your Node
+3- Access Netdata Web Interface:
+
 Edit the following command and connect to your server from anywhere you want.
 ``` http://SERVERIP:19999/```
 
