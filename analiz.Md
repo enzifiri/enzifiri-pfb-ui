@@ -21,7 +21,7 @@ Disk: 40 GB SSD Storage <br>
 
 # How do I perform my node analyses?
 
-  Node analysis is the examination of the nodes and connections in a network. Node analysis is often used to understand the structural properties of a network, identify important nodes, and understand their impact on the network. I use several methods to perform node analysis.
+ Node analysis is often used to understand the structural properties of a network, identify important nodes, and understand their impact on the network. I use several methods to perform node analysis.
 
 First, I analyze the topology of the network. This helps me understand how nodes are connected and the structure of the network. During this analysis, I evaluate the number of nodes, connection density, and centrality.
 
@@ -33,6 +33,7 @@ Each of these methods plays an important role in analyzing the nodes and connect
 
   Another method I use for system analysis is to use the tools available in the Linux operating system. These tools are very useful for detecting performance issues and other errors in the system.
 
+## 1-
 Firstly, I can use the ```top``` and ```htop``` tools available in the Linux operating system to monitor CPU usage and which applications are consuming more resources. These tools allow me to quickly detect overload situations and provide me with the necessary information to intervene.
 
 In addition, I can track RAM usage in the system using the ```free``` command. This shows how much of the RAM is being used, how much is free, and how much is being cached.
@@ -41,7 +42,15 @@ To monitor disk usage, I use the ```df``` and ```du``` commands. The ```df``` co
 
 Moreover, I can monitor network traffic with the ```netstat``` and ```iftop``` commands. These commands show the network connections and which applications are consuming how much network traffic.
 
-In conclusion, the tools available in the Linux operating system are very useful for system analysis. These tools allow me to obtain the necessary information to detect performance issues and errors in the system. This is important to provide better service to my customers and ensure that systems run in a more secure, efficient, and performant manner.
+## 2-
+I use NetData service to perform Node control. This service allows me to monitor system data such as CPU, RAM, Disk, and Network in real-time and access them from anywhere I want, enabling me to constantly observe the system's performance.
+
+NetData service comes with a range of customizable alerts. These alerts immediately inform me if an unexpected situation arises, allowing me to quickly take action to resolve the issue. For example, I receive alerts in case of excessive load, network connection issues, or an increase in disk usage. With these alerts, I can quickly understand what the problem is and intervene accordingly.
+
+In addition, NetData service provides me with detailed reports on system performance. These reports show which components have higher usage rates, which applications consume more resources, and when the system experiences higher loads. With these reports, I can take the necessary steps to further improve system performance.
+
+Overall, NetData service allows me to monitor the system's performance at all times and try to detect possible issues in advance to provide better service to my customers and ensure the smooth running of my business.
+
 
 ## CPU 
 In general, I aim to utilize at least 5% and up to 25% of the CPU. On average, the usage fluctuates around 8%. However, if the CPU usage exceeds these expected values, I promptly intervene to identify and resolve any potential issues. This proactive approach helps ensure that the system operates optimally and minimizes the risk of any negative impacts on system performance or stability.
