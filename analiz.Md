@@ -42,3 +42,34 @@ To monitor disk usage, I use the ```df``` and ```du``` commands. The ```df``` co
 Moreover, I can monitor network traffic with the ```netstat``` and ```iftop``` commands. These commands show the network connections and which applications are consuming how much network traffic.
 
 In conclusion, the tools available in the Linux operating system are very useful for system analysis. These tools allow me to obtain the necessary information to detect performance issues and errors in the system. This is important to provide better service to my customers and ensure that systems run in a more secure, efficient, and performant manner.
+
+## CPU 
+In general, I aim to utilize at least 5% and up to 25% of the CPU. On average, the usage fluctuates around 8%. However, if the CPU usage exceeds these expected values, I promptly intervene to identify and resolve any potential issues. This proactive approach helps ensure that the system operates optimally and minimizes the risk of any negative impacts on system performance or stability.
+![image](https://user-images.githubusercontent.com/76253089/232323301-c1f6107a-0c5d-45a3-8c68-bcf61e0b7f6d.png)
+
+## RAM
+Similarly, I also monitor RAM usage in a similar manner. Currently, out of the total 4GB RAM, approximately 1.5GB is being utilized, with around 0.89GB free and 1.36GB being used for caching. By consistently monitoring the RAM usage, I can quickly identify any potential issues and take the necessary steps to optimize system performance and stability. This ensures that the system operates efficiently and minimizes the risk of any negative impact on performance or stability.
+![image](https://user-images.githubusercontent.com/76253089/232323428-547f2efa-92cd-454c-8ad1-a924ec0ed049.png)
+
+## Bandwith
+Commands ```sudo apt install speedtest-cli``` ```speedtest-cli``` <br>
+Testing download speed...Download: 1923.50 Mbit/s <br>
+Testing upload speed...Upload: 453.12 Mbit/s <br>
+
+## SETUP
+If you wish, you can also monitor your nodes using the commands available in Linux, or alternatively, you can use other programs to achieve this. Personally, I tend to monitor my nodes using the 'netstat' program. If you are interested in using this method to monitor your nodes, I have prepared a brief guide that you can find below. By consistently monitoring your nodes, you can quickly identify any potential issues and take the necessary steps to optimize their performance and stability.
+To utilize these codes, run them within your node directory.
+
+1- Install Netdata: (UBUNTU 20.04 LTS)
+```
+wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh
+sh /tmp/netdata-kickstart.sh --nightly-channel
+```
+2- Create a membership using NetData and paste your private code into the console.
+```
+wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --nightly-channel --claim-token YOURTOKEN --claim-url https://app.netdata.cloud
+```
+3- Connect Your Node
+Edit the following command and connect to your server from anywhere you want.
+``` http://SERVERIP:19999/```
+
