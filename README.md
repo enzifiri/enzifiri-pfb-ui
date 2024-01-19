@@ -1,5 +1,5 @@
 <div align=center>
-<h1> Celestia - PayforBlob UI TASK </h1>
+<h1> Celestia - PayforBlob UI</h1>
 
 
 Using the files and codes here to copy the project may lead to your disqualification from the Incentivized Testnet. Please follow the rules set by Celestia
