@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>PayforBlob UI</title>
+  </head>
+  <body>
+    <h1>PayforBlob UI</h1>
+    <form method="POST" action="/pay-for-blob">
+      <label for="node_ip">Node IP:</label>
+      <input type="text" id="node_ip" name="node_ip"><br><br>
+
+      <label for="node_port">Node Port:</label>
+      <input type="text" id="node_port" name="node_port"><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    {% if result %}
+      <h2>Result:</h2>
+      {% if result.error %}
+        <p>Error: {{ result.error }}</p>
+      {% else %}
+        <p>Namespace ID: {{ namespace_id }}</p>
+        <p>Transaction Hash: {{ result.txhash }}</p>
+      {% endif %}
+    {% endif %}
+  </body>
+</html>
